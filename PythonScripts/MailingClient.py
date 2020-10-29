@@ -54,7 +54,7 @@ p.set_payload(attachment.read())
 
 
 encoders.encode_base64(p) #encode the image data we just read and set as payload
-p.add_header('Content-Dispoistion', f'attachment; filename={filename}') # add header to p
+p.add_header('Content-Disposition', f'attachment; filename={filename}') # add header to p
 msg.attach(p)
 
 text = msg.as_string() #get the whole thing as string and can be sent by server
