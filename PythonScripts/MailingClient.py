@@ -17,7 +17,7 @@ import smtplib #used to send mail
 from email import encoders 
 from email.mime.text import MIMEText # ordinary text that we use
 from email.mime.base import MIMEBase # use for attachment
-from email.mime.miltipart import MIMEMultipart
+from email.mime.multipart import MIMEMultipart
 
 
 server = smtplib.SMTP('smtp.gmail.com', 25) #google your SMTP Server (yahoo, etc.)
