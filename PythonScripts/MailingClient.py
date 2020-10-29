@@ -8,6 +8,8 @@ in order to send mail from that account to others.
 
 TLDR: sends email using python
 
+REFERENCE: https://docs.python.org/2/library/email.message.html
+
 """
 
 #Importing the necessary libraries
