@@ -1,3 +1,16 @@
+"""
+Created by: Elvin Rivera
+10/28/2020
+Description: script to scan open ports on a device
+
+
+
+NOTE: Python does not support true multithreading
+
+"""
+
+
+
 import socket
 import threading
 
