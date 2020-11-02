@@ -1,0 +1,62 @@
+"""
+
+Some cisco commands to know
+
+Switch>en
+Switch#conf t
+Enter configuration commands, one per line. End with CNTL/Z
+Switch(config)#host S1          <--- naming the switch
+S1(config)#do sh ip int brief       <--- show IP interface (brief description)
+
+
+S1(config)#int vlan 1       <--- configure interface for vlan1
+S1(config)#ip add
+S1(config)#ip address
+S1(config)#ip address 192.168.122.72 255.255.255.0
+S1(config)#no shut
+S1(config)#end
+
+
+NOTE: after you sh ip int brief, it will show VLAN1
+
+S1(config)#user
+S1(config)#usern
+S1(config)#username elvin pas
+S1(config)#username elvin password cisco
+S1(config)#enab
+S1(config)#enable pas
+S1(config)#enable password cisco
+S1(config)#line vty 0 4
+S1(config-line)#logi
+S1(config-line)#login loca
+S1(config-line)#transport in
+S1(config-line)#transport input ?   <--- will show the parameters for command
+S1(config-line)#transport input all
+S1(config-line)#end
+
+
+
+
+--------------------------
+Instructions for script
+
+run the script
+
+then ping 192.168.122.72
+Telnet 192.168.122.72
+input username and password
+
+Run the same commands
+
+
+-------------------------
+
+to remove a vlan
+
+S1(config)#no vlan 2
+S1(config)#end
+
+to show vlans
+
+S1(config)#sh vlan brief
+"""
