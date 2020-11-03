@@ -30,7 +30,7 @@ def attack():
 
         #to check connections
         global already_connected
-        already_connected i=1
+        already_connected +=1
         ## print(already_connected) #dont print everything
         if already_connected % 500 == 0:
             print(already_connected)
@@ -38,5 +38,5 @@ def attack():
 #define your thread/threat
 for i in range(500):
     thread = threading.Thread(target=attack)
-    thread = start()
+    thread.start()
                                                            
