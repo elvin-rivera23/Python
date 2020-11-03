@@ -1,0 +1,32 @@
+"""
+
+Router>en
+Router#conf t
+
+Router(config)#host R1
+R1(config)#enable pas
+R1(config)#enable password cisco
+R1(config)#userna
+R1(config)#username elvin pas
+R1(config)#username elvin password cisco
+R1(config)#line vty 0 4
+R1(config-line)#login local
+R1(config-line)#tra
+R1(config-line)#transport in
+R1(config-line)#transport input all
+R1(config-line)#int g0/0
+R1(config-line)#ip add
+R1(config-line)#ip address dh
+R1(config-line)#ip address dhcp     <--- typically configure router IP addresses statically
+R1(config-line)#no shut
+R1(config-line)#end
+
+R1#
+R1#sh ip int brief
+
+-----------
+
+
+R1#sh run int loop 0
+
+"""
