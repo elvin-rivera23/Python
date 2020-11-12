@@ -1,0 +1,23 @@
+- jupyter makes it easy to develop and share code
+- supports python 
+- share notebooks with others
+
+
+gns3.com -> marketplace -> jupyter
+
+this example configures a CiscoIOSv Router using python
+
+on GNS3 -> File -> Import appliance -> Jupyter
+
+Run on GNS3 VM
+
+Console http path: /
+Console tyupe: http
+Adapters: 1
+Image: gns3/jupyter:v2
+Console http port: 8888
+
+Reference: https://www.youtube.com/watch?v=czYa2MZwrdk
+
+
+Refer to teh original Script
