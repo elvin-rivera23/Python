@@ -7,3 +7,4 @@ Refer to this for code style/organization: https://www.python.org/dev/peps/pep-0
 
 
 - Automate Switch and Router Configuration
+- Create Discord ChatBot
